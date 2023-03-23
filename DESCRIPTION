@@ -1,0 +1,32 @@
+Package: MUVR
+Title: Multivariate methods with Unbiased Variable selection in R
+Version: 0.0.974
+Author: Carl Brunius <carl.brunius@chalmers.se>
+Maintainer: Carl Brunius <carl.brunius@chalmers.se>
+Description: This is a package dedicated to predictive multivariate modelling
+    for metabolomics. Types: Classification and regression. methods: PLS and Random
+    Forest Data structures: Paired and unpaired Validation: rdCV (Westerhuis et al
+    2008, Filzmoser et al 2009) Variable selection: Performed internally, through
+    tuning in the inner CV loop.
+Depends:
+    R (>= 3.2.2)
+Imports:
+    randomForest,
+    ranger,
+    pROC,
+    doParallel,
+    foreach,
+    kernlab,
+    klaR,
+    beepr,
+    rminer,
+    microbenchmark,
+    nnet,
+    neuralnet,
+    caret,
+    splines,
+    beepr
+License: GPL-2
+LazyData: true
+RoxygenNote: 7.2.3
+Encoding: UTF-8
